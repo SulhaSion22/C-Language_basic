@@ -2,12 +2,13 @@
 
 int main(void)
 {
-	char code1 = 'A';
-	char code2 = 65;
-
-	printf("code1 = %c\n", code1);
-	printf("code1 = %d\n", code1);
-	printf("code2 = %c\n", code2);
+	int i;
+	for (i = 0; i < 10; i++)
+	{
+		if (i % 2 == 1)
+			continue;
+		printf("%d\n", i);
+	}
 	return 0;
 }
 */
