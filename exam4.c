@@ -1,23 +1,21 @@
 /*#include <stdio.h>
 
-struct point {
-	int x;
-	int y;
+union example {
+	int i;
+	char c;
+
+
 };
 
 int main(void) {
+	union example data;
 
-	struct point p1 = { 10, 20 };
-	struct point p2 = { 30, 40 };
+	data.c = 'A';
+	printf("data.c = %c  data.i = %d\n", data.c, data.i);
+	
+	data.i = 10000;
+	printf("data.c = %c  data.i = %d\n", data.c, data.i);
+	return 0;
 
-	p2 = p1;
-
-	if ((p1.x == p2.x) && (p1.y == p2.y))
-	{
-		printf("p1와 p2는 같습니다.");
-	}
-
-
-		return 0;
 }
 */

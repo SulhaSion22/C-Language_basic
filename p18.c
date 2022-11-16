@@ -1,17 +1,26 @@
 /*#include <stdio.h>
 
-int main(void)
-{
-	int x = 10, y = 20;
-	int* p;
+struct date {
+	int year;
+	int month;
+	int day;
+};
 
-	p = &x;
-	printf(" p =%d\n", p);
-	printf("*p=%d\n", *p);
+struct student {
+	int number;
+	char name[10];
+	struct date dob;
+	double grade;
+};
 
-	p = &y;
-	printf("p=%d\n", p);
-	printf("*p=%d\n", *p);
+int main(void) {
+	struct student s1;
+	s1.dob.year = 1983;
+	s1.dob.month = 03;
+	s1.dob.day = 29;
+
+	printf("%d  %d  %d", s1.dob.year, s1.dob.month, s1.dob.day);
+
 	return 0;
 }
 */
