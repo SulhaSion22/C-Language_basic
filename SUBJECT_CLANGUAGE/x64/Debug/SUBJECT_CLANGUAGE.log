@@ -1,0 +1,5 @@
+﻿  num2.c
+C:\Users\이시온\SUBJECT_CLANGUAGE\num2.c(11,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  num3.c
+  코드를 생성하고 있습니다...
+  SUBJECT_CLANGUAGE.vcxproj -> C:\Users\이시온\SUBJECT_CLANGUAGE\x64\Debug\SUBJECT_CLANGUAGE.exe
